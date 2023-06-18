@@ -1,9 +1,9 @@
 # Python-for-Data-Science-Essential
 This is a LinkedInLearning Course
  https://www.linkedin.com/learning/python-for-data-science-essential-training-part-1/filtering-and-selecting?autoSkip=true&resume=false
- 
-Learning objectives
 
+Learning objectives
+   
     Why use Python for working with data
     Filtering and selecting data
     Concatenating and transforming data
