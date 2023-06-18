@@ -1,4 +1,6 @@
 # Python-for-Data-Science-Essential
+
+
 Learning objectives
     Why use Python for working with data
     Filtering and selecting data
