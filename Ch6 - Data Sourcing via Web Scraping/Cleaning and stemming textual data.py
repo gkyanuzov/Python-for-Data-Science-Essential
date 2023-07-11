@@ -32,3 +32,35 @@ print(f'Filtered Sentence: {filtered_words}')
 print(f'Stemmed Sentence: {stemmed_words}')
 
 
+# Lemmatizing
+# nltk.download('wordnet')
+
+from nltk.stem.wordnet import WordNetLemmatizer
+
+lem = WordNetLemmatizer()
+stem = PorterStemmer()
+
+lem_words = []
+
+for i in range(len(filtered_words)):
+    lem_words.append(lem.lemmatize(filtered_words[i]))
+
+print(f"Lemmatized words: {lem_words}")
+
+# Parts of Speech tagging
+# nltk.download('averaged_perceptron_tagger')
+
+from nltk import pos_tag
+pos_tagged_word = pos_tag(word_tk)
+
+print(pos_tagged_word)
+print('---------------------------------------')
+# Frequency distribution plots
+
+from nltk.probability import FreqDist
+fd = FreqDist(word_tk)
+print(fd)
+
+import  matplotlib.pyplot as plt
+fd.plot(30, cumulative=False)
+plt.show()
